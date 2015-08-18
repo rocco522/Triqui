@@ -312,15 +312,56 @@ public class MainActivity2Activity extends ActionBarActivity {
     public void verificarGanador(){
 
         if (!btn1 && !btn2 && !btn3){
-
+            if(tipoJuego.equals("1"))
+            {
+                if(turno)
+                {
+                    // Aquí se muestra ganador J1 y vuelve a la actividad principal para elegir nuevamente el tipo de juego <br>
+                }
+                else
+                {
+                    // Aquí se muestra ganador Android y vuelve a la actividad principal para elegir nuevamente el tipo de juego <br>
+                }
+            }
+            else
+            {
+                if(turno)
+                {
+                    // Aquí se muestra ganador J1 y vuelve a la actividad principal para elegir nuevamente el tipo de juego <br>
+                }
+                else
+                {
+                    // Aquí se muestra ganador J2 y vuelve a la actividad principal para elegir nuevamente el tipo de juego <br>
+                }
+            }
         }
 
-        else if (!btn4 && !btn5 && !btn6){
-
+        if (!btn4 && !btn5 && !btn6){
+            
         }
 
         if (!btn7 && !btn8 && !btn9){
-
+            
+        }
+        
+        if(!btn1 && !btn4 && !btn7){
+            
+        }
+        
+        if(!btn2 && !btn5 && !btn8){
+            
+        }
+        
+        if(!btn3 && !btn6 && !btn9){
+            
+        }
+        
+        if(!btn1 && !btn5 && !btn9){
+            
+        }
+        
+        if(!btn3 && !btn5 && !btn7){
+            
         }
     }
 
